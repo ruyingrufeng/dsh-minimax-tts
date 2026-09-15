@@ -1,0 +1,10 @@
+# dsh-minimax-tts: server bundle + client bundle 声明
+# Loader 加载规则: import 指向 module specifier, export 取命名导出或 default
+# server: lib/index.js 导出 default = { name, inject, apply }
+# client: lib/client.js 是 IIFE + __ModuleLoader__.load 自挂(无需 Loader 加载)
+- insert:
+    - id: dsh-minimax-tts
+      name: dsh-minimax-tts
+      apply:
+        import: dsh-minimax-tts
+        export: default
