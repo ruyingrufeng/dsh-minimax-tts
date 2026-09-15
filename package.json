@@ -1,7 +1,7 @@
 {
   "name": "dsh-minimax-tts",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "type": "module",
   "description": "DeepSeek Harness TTS plugin: MiniMax TTS (speech-02-turbo) — agent tool + client read-aloud button",
   "main": "lib/index.js",
