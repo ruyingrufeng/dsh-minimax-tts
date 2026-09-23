@@ -151,3 +151,8 @@ MIT License
 ---
 
 如果这个项目对你有帮助，欢迎 Star ⭐，也欢迎提交 Issue 和 PR。
+
+## 生态关联
+
+- [**百灵 Bailing**](https://github.com/ruyingrufeng/bailing) — 数字个体与跨运行环境连续性的开放实验，本插件的长期使用场景之一
+- [**AI Eval Lab**](https://github.com/ruyingrufeng/ai-eval-lab) — Apple Silicon 本地 AI 评测实验室，含 TTS 音质/速度对比基准
